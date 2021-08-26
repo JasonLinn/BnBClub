@@ -81,33 +81,33 @@ $(window).load(function() {
 ////////////////////////////////////////////////////
 
 // Intro text carousel
-$("#owl-intro-text").owlCarousel({
-    singleItem : true,
-    autoPlay : 6000,
-    stopOnHover : true,
-    navigation : false,
-    navigationText : false,
-    pagination : true
-})
+// $("#owl-intro-text").owlCarousel({
+//     singleItem : true,
+//     autoPlay : 6000,
+//     stopOnHover : true,
+//     navigation : false,
+//     navigationText : false,
+//     pagination : true
+// })
 
 
-// Partner carousel
-$("#owl-partners").owlCarousel({
-    items : 4,
-    itemsDesktop : [1199,3],
-    itemsDesktopSmall : [980,2],
-    itemsTablet: [768,2],
-    autoPlay : 5000,
-    stopOnHover : true,
-    pagination : false
-})
+// // Partner carousel
+// $("#owl-partners").owlCarousel({
+//     items : 4,
+//     itemsDesktop : [1199,3],
+//     itemsDesktopSmall : [980,2],
+//     itemsTablet: [768,2],
+//     autoPlay : 5000,
+//     stopOnHover : true,
+//     pagination : false
+// })
 
-// Testimonials carousel
-$("#owl-testimonial").owlCarousel({
-    singleItem : true,
-    pagination : true,
-    autoHeight : true
-})
+// // Testimonials carousel
+// $("#owl-testimonial").owlCarousel({
+//     singleItem : true,
+//     pagination : true,
+//     autoHeight : true
+// })
 
 
 ////////////////////////////////////////////////////////////////////
@@ -144,23 +144,23 @@ $('.counter').counterUp({
 ////////////////////////////////////////////////////////////////////////////////////////////
 // Isotop Package
 ////////////////////////////////////////////////////////////////////////////////////////////
-$(window).load(function() {
-$('.portfolio_menu ul li').click(function(){
-	$('.portfolio_menu ul li').removeClass('active_prot_menu');
-	$(this).addClass('active_prot_menu');
-});
+// $(window).load(function() {
+// $('.portfolio_menu ul li').click(function(){
+// 	$('.portfolio_menu ul li').removeClass('active_prot_menu');
+// 	$(this).addClass('active_prot_menu');
+// });
 
-var $container = $('#portfolio');
-$container.isotope({
-  itemSelector: '.col-sm-4',
-  layoutMode: 'fitRows'
-});
-$('#filters').on( 'click', 'a', function() {
-  var filterValue = $(this).attr('data-filter');
-  $container.isotope({ filter: filterValue });
-  return false;
-});
-});
+// var $container = $('#portfolio');
+// $container.isotope({
+//   itemSelector: '.col-sm-4',
+//   layoutMode: 'fitRows'
+// });
+// $('#filters').on( 'click', 'a', function() {
+//   var filterValue = $(this).attr('data-filter');
+//   $container.isotope({ filter: filterValue });
+//   return false;
+// });
+// });
 
 
 
