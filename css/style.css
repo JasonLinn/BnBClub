@@ -651,12 +651,14 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	height: 120px;
 }	
 .team-item .team-triangle {
+	display: flex;
 	width: 120px;
 	height: 120px;
-	background: transparent;
-	-ms-transform: rotate(45deg);
+	align-items: center;
+	background: white;
+	/* -ms-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
+	transform: rotate(45deg); */
 	margin: 0 auto;
 	position: relative;
 	top: 25px;
@@ -672,20 +674,20 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	margin-top: 0;
 }
 .team-triangle .content {
-	-ms-transform: rotate(-45deg);
+	/* -ms-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	top: -35px;
 	position: absolute;
 	left: -37px;
 	width: 190px;
-	height: 190px;
+	height: 190px; */
 }
 .team-hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 120px;
 	height: 100%;
 	background: rgba( 103, 109, 117, 0.9);
 	opacity: 0;
